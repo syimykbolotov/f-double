@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* HEADER */
+
+#header {
+  padding: 25px 0;
+  background: #6b6b6bae;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(2px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+/* HERO */
+
+#hero {
+  padding: 67px 0 74px 0;
+  background: #ebebeb;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text h1 {
+  color: #333;
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.hero-text p {
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px; /* 152.941% */
+  margin: 11px 0 30px 0;
+}
+
+.hero-link {
+  width: 357px;
+  height: 50px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.hero-link a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.hero-img {
+  margin-left: 138px;
+}
+
+.hero-img p {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px; /* 161.538% */
+  margin-top: -43px;
+}
+
+/* LOGOS */
+
+#logos {
+  background: #d3d3d3;
+  padding: 52px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CLASS */
+
+#class {
+  padding: 50px 0;
+}
+
+.class-on {
+  display: flex;
+  align-items: center;
+}
+
+.class-up h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.class-up p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  margin-right: 175px;
+}
+
+.class-img p {
+  color: #777;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -40px;
+  margin-bottom: 26px;
+}
+
+.class-under {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.under-img p {
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.under-text h1 {
+  color: #000;
+  font-size: 31px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.under-text p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+/* LAYOUT */
+
+#layout {
+  background: #ebebeb;
+  padding: 89px 0 80px 0;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.layout h1 {
+  color: #333;
+  font-size: 31px;
+  font-weight: 400;
+}
+
+.layout h6 {
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 11px 0 40px 0;
+}
+
+.layout p {
+  color: #777;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px; /* 175% */
+  margin: -40px 0 50px 0;
+}
+
+.layout-blocks {
+  display: flex;
+}
+
+.step {
+  width: 364px;
+  height: 316px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.step h1 {
+  margin-top: 31px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.step img {
+  margin: 31px 0 70px 0;
+}
+
+.step p {
+  color: #333;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px; /* 153.846% */
+}
+
+.step p span {
+  color: #333;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* TIPS */
+
+#tips {
+  padding: 60px 0;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tip-title {
+  color: #333;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.tip h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  margin: -40px 0 13px 0;
+}
+
+.tip p {
+  color: #333;
+  font-size: 15px;
+  font-weight: 400;
+  width: 243px;
+}
+
+.tip img {
+  margin-left: -50px;
+}
+
+/* FOOT */
+
+#foot {
+  padding: 25px 0;
+  background: #6b6b6b;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-nav a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+/* FOOTER */
+
+#footer {
+  padding: 15px 0;
+  background: #111;
+}
+
+.footer p {
+  color: #777;
+  font-size: 12px;
+  font-weight: 400;
+}
